@@ -5,7 +5,7 @@ const Create = () => {
     return (
         <div>
             <h1>Create</h1>
-            <Form fields={["Email", "Room name", "Password"]}/>
+            <Form fields={["Email", "Room name", "Password", "Language"]}/>
         </div>
     );
 }
